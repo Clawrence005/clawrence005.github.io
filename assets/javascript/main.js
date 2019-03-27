@@ -1,5 +1,11 @@
 $(document).ready(function () {
+    // burger menu
+    function myFunction(x) {
+        x.classList.toggle("change");
+    }
 
+
+    ////////////////////////////
     function formContact() {
 
         $('name-input').val().trim();
@@ -21,4 +27,4 @@ $(document).ready(function () {
 
 
 });
-
+myFunction(change);
