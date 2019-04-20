@@ -8,7 +8,7 @@ module.exports = function (app) {
 
   // index route loads main page index.html
   app.get("/", function (req, res) {
-    res.sendFile(path.join(__dirname, "../index.html"));
+    res.sendFile(path.join(__dirname, "../public/index.html"));
   });
 
   // portfolio route loads portfolio.html
@@ -19,13 +19,14 @@ module.exports = function (app) {
   // contact route loads contact.html
   app.get("/contact", function (req, res) {
     res.sendFile(path.join(__dirname, "../public/contact.html"));
+  });
 
-    // contact route loads resume.html
-    app.get("/resume", function (req, res) {
-      res.sendFile(path.join(__dirname, "../public/resume.html"));
-      // all others *
-      //   app.get("/*", function(req, res) {
-      //     res.redirect('/'));
-      //   });
-    });
-  };
+  // contact route loads resume.html
+  app.get("/resume", function (req, res) {
+    res.sendFile(path.join(__dirname, "../public/resume.html"));
+    // all others *
+    //   app.get("/*", function(req, res) {
+    //     res.redirect('/'));
+    //   });
+  });
+};
