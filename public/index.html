@@ -3,13 +3,14 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Colin Chavez Lawrence</title>
+  <title>Colin Lawrence</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet" />
   <!-- javascript -->
-  <script type="text/javascript" src="assets/javascript/main.js"></script>
+  <!-- <script type="text/javascript" src="assets/javascript/main.js"></script> -->
+
   <!-- jQuery -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="assets/javascript/main.js"></script>
@@ -41,26 +42,24 @@
 </head>
 
 <body>
-  <header id="masthead">
-    <div id="nav-container">
-      <!-- <img src="assets/images/MyLogo1.svg" alt="logo" class="logo"> -->
-      <!--<img src="assets/images/logo-5.svg" alt="logo" class="logo" style="height: 4rem">-->
-      <img src="assets/images/logo-28.png" alt="logo" class="logo" style="height:4rem" />
-      <a href="index.html" class="name">Colin Chavez Lawrence</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">About Me</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="burger" onclick="myFunction(this)">
-          <div class="bar1"></div>
-          <div class="bar2"></div>
-          <div class="bar3"></div>
-        </div>
-      </nav>
+  <nav>
+    <img src="assets/images/logo-28.png" alt="logo" class="logo" />
+    <div class="name">
+      <h4><a href="./index.html"> Colin Lawrence</a></h4>
     </div>
-  </header>
+    <ul class="nav-links">
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="burger">
+      <div class="line-1"></div>
+      <div class="line-2"></div>
+      <div class="line-3"></div>
+    </div>
+  </nav>
+
   <!-- -----------------------------nav----------------------------- -->
 
   <div class="main-container">
@@ -77,31 +76,33 @@
 
     <!-- row 1----------------------------------------------------------------->
     <div class="image-holder">
-      <img class="portrait" src="assets/images/me1.jpg" id="auth-image" alt="" style="" />
+      <img class="portrait" src="assets/images/me1.jpg" id="auth-image" alt="portrait" />
     </div>
   </div>
+  <!-- ----------------------footer----------------------a- -->
   <!-- ----------------------footer----------------------a- -->
   <footer class="footer-main-container">
     <div class="footer-content-container">
       © Copyright Colin Chavez Lawrence 2019. All rights reserved.
 
+
       <div class="footer-icon-container">
         <!-- <div class="icon-box"> -->
         <a href="#" class="footer" target="_blank" title="Pinterest"><img id="footer-left-icon" class="footer-icons"
-            src="assets/images/pinterest.svg" /></a>
+            src="assets/images/pinterest.svg"></a>
 
         <a href="https://www.linkedin.com/in/colin-lawrence-536220176/" class="footer" target="_blank"
-          title="LinkedIn"><img id="footer-center-icon" class="footer-icons" src="assets/images/linkedin.svg" /></a>
+          title="LinkedIn"><img id="footer-center-icon" class="footer-icons" src="assets/images/linkedin.svg"></a>
 
         <a href="https://www.instagram.com/foulbitepress/" class="footer" target="_blank" title="Instagram"><img
-            id="footer-right-icon" class="footer-icons" src="assets/images/instagram.svg" /></a>
-
+            id="footer-right-icon" class="footer-icons" src="assets/images/instagram.svg"></a>
         <!-- </div> -->
         <!-- </div> -->
       </div>
     </div>
   </footer>
-  <!-- ----------------------footer----------------------- -->
+  <script type="text/javascript" src="./assets/javascript/navSlide.js"></script>
+  </script>
 </body>
 
 </html>
