@@ -4,12 +4,10 @@ const skillsArray = [
 
 function skillsTemplate(skills) {
   return `
-  <h3 class="header">Development Skills</h3>
- <ul>
   ${skillsArray.map(function (skill) {
-    return `    <div class="skill-div" style="border: solid 3px red"><li>${skill}</li></div>`
+    return `    <div class="skill-div"><p>${skill}</p></div>`
   }).join('')} 
-  </ul>`
+  `
 
 }
 document.getElementById("app").innerHTML = `
