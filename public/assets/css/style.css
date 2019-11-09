@@ -5,7 +5,8 @@
   --footer-text-color:#444;
   --secondary-text-color: #444;
   --navbar-bg-color:#efefef;
-  --resp-navbar-bg-color:#efefef ;
+  --resp-navbar-bg-color:#efefef;
+  --email:'colinLawrencedev@gmail.com';
 }
 * {
   box-sizing: border-box;
@@ -290,31 +291,19 @@ li{
 .image-wrap-3:hover .project-name-3 {
   visibility: visible;
 }
-/* #clipboard-website{
-  visibility: hidden;
-} */
-
 /* CONTACT */
-/* .contact-button{
+ .contact-button{
 border: none;
 color: var(--navbar-text-color);
 background-color: transparent;
 cursor: pointer;
 font-size: 16px;
 font-weight: bold;
+letter-spacing:3px;
 text-transform: uppercase;
 text-decoration: none;
-} */
-
-#contact-container {
-  width: 55%;
-  padding: 3rem;
-}
-/* .about-me {
-  width: 40vw;
-  padding-bottom: 1em;
-  margin: auto;
-} */
+} 
+ 
 .image-container {
 border:3px solid #444;
   margin-left: auto;
