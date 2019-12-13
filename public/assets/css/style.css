@@ -68,6 +68,10 @@ nav{
   display: none;
   
 }
+.input, #input
+{
+  background-color: pink;
+}
 .burger div{
   width: 25px;
   height: 3px;
@@ -227,16 +231,18 @@ padding: 0;
 margin:0;
 /* width: 1266px; */
 /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
-grid-template-columns: repeat(auto-fit, minmax(18%,  1fr )); 
+grid-template-columns: repeat(auto-fit, minmax(15%,  1fr )); 
 grid-gap: 1em;
 }
 .skill-div{
   /* border: solid 3px red;  */
 
   text-align: center;
-   background-color: var(--navbar-bg-color);
+   /* background-color: var(--navbar-bg-color); */
+   background-color: #efefef;
 }
 .header{
+  margin: .5em;
   text-align: center;
   font-size: 22px;
   /* text-decoration: underline; */
