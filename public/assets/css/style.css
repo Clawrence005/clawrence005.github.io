@@ -7,6 +7,8 @@
   --navbar-bg-color:#efefef;
   --resp-navbar-bg-color:#efefef;
   --email:'colinLawrencedev@gmail.com';
+
+  --index-about-color:#efefef;
 }
 * {
   box-sizing: border-box;
@@ -243,30 +245,35 @@ text-decoration: none;
   width: 333px; */
 }
 #about-left{
+  padding: 3em 3em 0 3em;
     border: 3px solid purple;
     width:55%;
-
     position: relative;
-
     float: left;
 }
+
 #about-right{
+  padding: 3em;
   border: 3px solid purple;
   width:42%;
   position: relative;
-
   float: right;
 }
 #about-me-parent{
   border: 3px solid blue;
-  height: calc(100vh - 48px);  
+  display: inline-block;
+  /* height: calc(100vh - 48px);   */
   padding:none;
   margin:none;
 }
 
 #about-me-trans-overlay{
-  background-color: rgba(62, 65, 65, 0.35);
+  background-color: rgba(0, 0, 0, 0.5);
   object-fit: cover;
+}
+
+.about-me{
+  color: var(--index-about-color);
 }
 /* photos with white overlay */
 .image-wrap {
@@ -398,18 +405,6 @@ li{
 .image-wrap-3:hover .project-name-3 {
   visibility: visible;
 }
-/* CONTACT */
- /* .contact-button{
-border: none;
-color: var(--navbar-text-color);
-background-color: transparent;
-cursor: pointer;
-font-size: 16px;
-font-weight: bold;
-letter-spacing:3px;
-text-transform: uppercase;
-text-decoration: none;
-}  */
  
 .image-container {
 border:3px solid #444;
@@ -539,6 +534,13 @@ nav{
 /* MAIN CONTENT */
 .content{
   padding: 1.5rem;
+}
+/* @ INDEX */
+#about-left {
+  width: 100vw;
+}
+#about-right {
+  width: 100vw;
 }
 /* PORTFOLIO */
 .content-subsection:not(:first-child) {
