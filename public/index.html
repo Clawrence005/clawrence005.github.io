@@ -51,9 +51,15 @@
     <ul class="nav-links">
       <li><a href="index.html">About Me</a></li>
       <li><a href="portfolio.html">Portfolio</a></li>
-      <li><a href="resume.html">Resume</a></li>
+
       <li><button class="contact-button" onclick="copyContact('colinlawrencedev@gmail.com')"><span
             class="tool-tip-span">stuff</span>Contact Me</button></li>
+
+      <li><button class="tool-tip" onclick="copyContact('colinlawrencedev@gmail.com')"><span class="tool-tip-text">Click
+            to copy my email to your clipboard!</span>Contact Me</button></li>
+
+      <li><a href="resume.html">Resume</a></li>
+
 
     </ul>
     <div class="burger">
@@ -91,28 +97,30 @@
     </div>
 
   </div> -->
-  <div class="content">
-    <!-- <div id="about-content-wrapper"> -->
-    <div id="about-left">
+  <div id="index-content">
+    <div id="about-me-trans-overlay">
       <div id="about-me-parent">
-        <!-- <h1 class="about-me" id="about-me-1">
-          About me
-        </h1> -->
-        <h2 class="about-me" id="about-me-2">
-          I'm a fullstack developer in the live music capital Austin, Texas.
-        </h2>
-        <p class="about-me" id="about-me-3">
-          I enjoy finding creative and visually stunning solutions for design challenges. when im not deep into
-          code I
-          enjoy making craft cocktails, cooking and sitting on a Texas patio at twilight.
-        </p>
+        <div id="about-left">
+
+
+          <h2 class="about-me" id="about-me-2">
+            I'm a fullstack developer in the live music capital Austin, Texas.
+          </h2>
+          <p class="about-me" id="about-me-3">
+            I enjoy finding creative and visually stunning solutions for design challenges. when im not deep into
+            code I
+            enjoy making craft cocktails, cooking and sitting on a Texas patio at twilight.
+          </p>
+
+        </div>
+        <div id="about-right">
+          <!-- style display block gets rid of white space below div but makes it not listen to inline styling like text-align -->
+          <div id="circle">
+            <img id="about-headshot" class="headshot" src="./assets/images/HeadshotBW1.jpg" style="display: block">
+          </div>
+        </div>
       </div>
     </div>
-    <div id="about-right">
-      <!-- style display block gets rid of white space below div but makes it not listen to inline styling like text-align -->
-      <img id="about-headshot" class="headshot" src="./assets/images/HeadshotBW1.jpg" style="display: block">
-    </div>
-    <!-- </div> -->
   </div>
   <!-- ----------------------footer----------------------a- -->
   <footer class="footer-main-container">

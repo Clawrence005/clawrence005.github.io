@@ -110,6 +110,8 @@ a.name::before {
 nav a::before {
   background-color: var(--navbar-text-color);
 }
+
+
 footer {
   background-color: #efefef;
 }
@@ -167,6 +169,94 @@ footer {
 }
 /* end of footer */
 
+/* Content */
+#index-content{
+  background-image: url("../images/austin.jpg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+.headshot{
+  width: 433px;
+  border-radius: 50%;
+}
+
+/* @ tooltip */
+
+.tool-tip {
+  position: relative;
+  display: inline-block;
+  border: 1.5px dotted black;
+}
+
+.tool-tip .tool-tip-text {
+  visibility: hidden;
+  width: 320px;
+  background-color: #555;
+  color: pink;
+  text-align: center;
+  border-radius: 3px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: -60px;
+  left: -140px;
+  /* margin-left: -60px; */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* tooltip point */
+/* .tool-tip .tool-tip-text::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent; 
+  border-color: rgb(170, 15, 15) transparent transparent transparent;
+} */
+.tool-tip:hover .tool-tip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+#circle{
+  border: pink dotted 3px;
+  border-radius: 50%;
+  z-index: 1;
+  background-color: rgb(0, 255, 255, .5);
+  /* height: 333px;
+  width: 333px; */
+}
+#about-left{
+    border: 3px solid purple;
+    width:55%;
+
+    position: relative;
+
+    float: left;
+}
+#about-right{
+  border: 3px solid purple;
+  width:42%;
+  position: relative;
+
+  float: right;
+}
+#about-me-parent{
+  border: 3px solid blue;
+  height: calc(100vh - 48px);  
+  padding:none;
+  margin:none;
+}
+
+#about-me-trans-overlay{
+  background-color: rgba(62, 65, 65, 0.35);
+  object-fit: cover;
+}
 /* photos with white overlay */
 .image-wrap {
   position: relative;
@@ -182,10 +272,10 @@ object-position: 50% 50%
 
 }
 #portfolio-main-container{
-border: 3px solid orchid;
+/* border: 3px solid orchid; */
 }
 .content-subsection{
-  border: 3px solid purple;
+  /* border: 3px solid purple; */
 }
 .content-subsection:not(:first-child) {
   margin-top:3em;
@@ -331,7 +421,7 @@ border:3px solid #444;
   padding: 3rem;
 }
 .content{
-  border: 3px solid red;
+  /* border: 3px solid red; */
   padding: 3rem;
 }
 .content-subsection:not(:first-child) {
@@ -381,7 +471,7 @@ border:3px solid #444;
 }
 /* MAIN CONTENT */
 .content{
-  padding: 2rem;
+  /* padding: 2rem; */
 }
 
 /* PORTFOLIO */
