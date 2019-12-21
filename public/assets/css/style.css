@@ -184,12 +184,20 @@ footer {
 /* @ tooltip */
 
 .tool-tip {
-  position: relative;
-  display: inline-block;
-  border: 1.5px dotted black;
-}
+position: relative;
+display: inline-block;
+border: none;
+color: var(--navbar-text-color);
+background-color: transparent;
+cursor: pointer;
+font-size: 16px;
+font-weight: bold;
+letter-spacing:3px;
+text-transform: uppercase;
+text-decoration: none;
+} 
 
-.tool-tip .tool-tip-text {
+.tool-tip-text {
   visibility: hidden;
   width: 320px;
   background-color: #555;
@@ -200,7 +208,8 @@ footer {
   position: absolute;
   z-index: 1;
   bottom: -60px;
-  left: -140px;
+  left: -80%;
+  /* right: 50%; */
   /* margin-left: -60px; */
   opacity: 0;
   transition: opacity 0.3s;
@@ -222,6 +231,8 @@ footer {
   visibility: visible;
   opacity: 1;
 }
+
+
 
 #circle{
   border: pink dotted 3px;
@@ -388,7 +399,7 @@ li{
   visibility: visible;
 }
 /* CONTACT */
- .contact-button{
+ /* .contact-button{
 border: none;
 color: var(--navbar-text-color);
 background-color: transparent;
@@ -398,7 +409,7 @@ font-weight: bold;
 letter-spacing:3px;
 text-transform: uppercase;
 text-decoration: none;
-} 
+}  */
  
 .image-container {
 border:3px solid #444;

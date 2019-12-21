@@ -20,7 +20,7 @@ function copyContact(value) {
   document.body.appendChild(tempInput);
   tempInput.select();
   document.execCommand("copy");
-  alert("Copied the text: " + tempInput.value);
+  // alert("Copied the text: " + tempInput.value);
   document.body.removeChild(tempInput);
 
 }
