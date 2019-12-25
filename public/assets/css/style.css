@@ -218,8 +218,13 @@ color: var(--footer-text-color);
   /* height: calc(100vh - 48px);    */
 }
 
-/* @ tooltip */
+/* #photo-trans-overlay{
+background-color: rgba(238, 85, 162, 0.4);
+position: relative;
+z-index: 2;
+} */
 
+/* @ tooltip */
 .tool-tip {
 position: relative;
 display: inline-block;
@@ -376,6 +381,7 @@ grid-gap: 1em;
    /* background-color: var(--navbar-bg-color); */
    background-color: #efefef;
 }
+
 .header{
   margin: .5em;
   text-align: center;
@@ -401,7 +407,13 @@ li{
 /* width: 100%;  */
 } 
 
-
+/* RESUME */
+iframe{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: none;
+}
 /* CONTACT */
 #contact-container {
   width: 55%;
