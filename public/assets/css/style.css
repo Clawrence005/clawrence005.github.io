@@ -22,12 +22,15 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+ 
   font-family: "Poppins", sans-serif;
 }
 body {
   font-size: 16px;
 }
-
+ p{
+   margin:0
+  }
 nav{
   display:flex;
   justify-content: space-around;
@@ -375,18 +378,34 @@ margin:0;
 grid-template-columns: repeat(auto-fit, minmax(15%,  1fr )); 
 grid-gap: 1em;
 }
+/* skills */
+.sub-header{
+    border: .5px solid #eeebeb;
+    background-color: #efefef;
+    margin: .5em;
+    /* text-align: center; */
+    font-size: 22px;
+   /* font-family: ; */
+}
+.skill-category-wrapper{
+  /* border: solid 3px green;  */
+
+}
 .skill-div{
   /* border: solid 3px red;  */
-  text-align: center;
+  text-align: left;
+  margin: 0 1em ;
    /* background-color: var(--navbar-bg-color); */
-   background-color: #efefef;
+   /* background-color: #efefef; */
 }
 
 .header{
-  margin: .5em;
+  padding: .25em;
   text-align: center;
   font-size: 22px;
   /* text-decoration: underline; */
+  border: .5px solid #eeebeb;
+  background-color: #efefef;
 }
 
 li{
@@ -421,7 +440,7 @@ iframe{
 }
 .content{
   /* border: 3px solid red; */
-  padding: 3rem;
+  padding:4rem 7rem  5rem ;
 }
 .content-subsection:not(:first-child) {
   margin-top:3em;
@@ -548,9 +567,9 @@ nav{
 .content-subsection:not(:first-child) {
   margin-top:1.5em;
 }
-/* .skill-template{
-  grid-template-columns: repeat(auto-fit, minmax(20%,  1fr ));
-  } */
+.skill-template{
+  grid-template-columns: repeat(auto-fit, minmax(33%,  1fr ));
+  }
 
   #about-me-trans-overlay{
     height: auto;    
