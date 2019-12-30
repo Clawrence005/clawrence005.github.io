@@ -447,11 +447,17 @@ li{
 } 
 
 /* RESUME */
-iframe{
-  width: 100vw;
-  height: 100vh;
+.main-container-resume{
+  display: block;
+  text-align: center;
+  margin: auto 0;
+}
+.resume{
+  width: 85vw;
+  height: 95vh;
   position: relative;
   overflow: none;
+  /* border:none; */
 }
 /* CONTACT */
 #contact-container {

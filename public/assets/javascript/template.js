@@ -4,39 +4,18 @@
 // Javascript
 const skillsArray1 = [
   "JavaScript", "JQuery", "NodeJs"
-  // < li class="skill-div" > JavaScript</li >
-  // <li class="skill-div">jQuery</li>
-  // <li class="skill-div">NodeJs</li>
-
 ];
 // Frontend
 const skillsArray2 = [
   "HTML", "CSS", "Bootstrap", "ReactJs", "Materialize", "Material UI"
-
-  // < li class= "skill-div" > Html 5</li >
-  // <li class="skill-div">CSS</li>
-  // <li class="skill-div">Bootstrap</li> 
-  // <li class="skill-div">ReactJs</li>
-  // <li class="skill-div">Materialize</li>
-  // <li class="skill-div">Material UI</li>
 ];
 // Backend
 const skillsArray3 = [
   "Firebase", "Express", "MySQL", "MongoDB", "HandleBars", "PassportJs"
-  // <li class="skill-div">Express</li>
-  // < li class= "skill-div" > Firebase</li >
-  // <li class="skill-div">MySQL</li>
-  // <li class="skill-div">MongoDb</li>
 ];
 // Other Skills
 const skillsArray4 = [
-  "HandleBars", "Photoshop", "Illustrator", "SVG", "Heroku", "Github"
-  // < li class= "skill-div" > Handlebars</li >
-  // <li class="skill-div">Illustrator</li>
-  // <li>Photoshop</li>
-  // <li class="skill-div">SVG</li>
-  // <li class="skill-div">Heroku</li>
-  // <li class="skill-div">Github</li>
+  "Photoshop", "Illustrator", "SVG", "Heroku", "Github"
 ];
 function skillsTemplate(skills) {
   return ` <div class="skill-category-wrapper">          
