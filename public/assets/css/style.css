@@ -598,9 +598,8 @@ nav{
   width: 85%;
   padding: none;
   }
-
-  #about-me-trans-overlay{
-    height: auto;    
+  .project-pic,  .project-name  {
+    height: 20rem;    
   }
   .index-content{
     height: auto;   

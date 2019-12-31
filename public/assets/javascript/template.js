@@ -1,4 +1,4 @@
-// ~~~~~~~~~~~~~~~~~~~1st attempt ~~~~~~~~~~~~~~~~~~~`
+// // ~~~~~~~~~~~~~~~~~~~1st attempt ~~~~~~~~~~~~~~~~~~~`
 // Javascript
 const skillsArray1 = [
   "JavaScript", "JQuery", "NodeJs"
@@ -79,17 +79,6 @@ document.getElementById("app").innerHTML = `
 
 // function skillsTemplate(skills) {
 
-//   // let rows = skillsThing.length;
-//   // for (let i = 0; i < rows; i++) {
-
-//   //   let items = skillsThing[i].length;
-//   //   console.log(i, items)
-//   //   for (let n = 0; n < items; n++) {
-//   //     console.log(skillsThing[i][n]);
-//   //     `<p>${this.skillsThing[i][n]}</p>`
-//   //   }
-//   // }
-
 //   let rows = skillsThing.length;
 //   for (i = 0; i < skillsThing.length; i++) {
 
@@ -100,7 +89,7 @@ document.getElementById("app").innerHTML = `
 //     ${skillsThing.map(function (skill) {
 
 //         return `      <h3 class="sub-header">
-//       ${skill[0]}
+//       ${skillsThing[i].skill}
 //       </h3> 
 //       <div class="skill-div" style="border: solid 2px blue"><p>
 //       ${skill}
@@ -114,7 +103,7 @@ document.getElementById("app").innerHTML = `
 // document.getElementById("app").innerHTML = `
 // <div class="skill-template">${skillsTemplate(skillsThing)}</div>`;
 
-// ~~~~~~~~~~~~~~~~~~~3rd attempt ~~~~~~~~~~~~~~~~~~~`
+// ~~~~~~~~~~~~~~~~~~~3rd attempt ~~~~~~~~~~~~~~~~~~~
 // let skillInception = {
 //   skillsField: [
 //     { area: 'Javascript', skills: ["JavaScript", "JQuery", "NodeJs"] },
@@ -128,14 +117,18 @@ document.getElementById("app").innerHTML = `
 // function skillsTemplate(skills) {
 //   let chars = skillInception['skillsField'];
 //   `<div>`
+
 //   for (let i = 0; i < chars.length; i++) {
-//     return `<div  style="border: solid 2px red">${chars[i].area} <div  style="border: solid 2px blue">${chars[i].skills}</div></div>
-// `
+//     console.log(chars[i].area, chars[i].skills);
+//     (`<div  style="border: solid 2px red">${chars[i].area} <div  style="border: solid 2px blue">${chars[i].skills}</div><div  style="border: solid 2px blue">${chars[i].area}</div></div>
+// `)
 //   } `</div>`
 // }
-// document.getElementById("app").innerHTML = `
+// document.getElementById("app").innerHTML = `    
 // <div class="skill-template">${skillsTemplate(skillInception)}</div>`;
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 
 // https://stackoverflow.com/questions/31593297/using-execcommand-javascript-to-copy-hidden-text-to-clipboard  #65
 function copyContact(value) {
