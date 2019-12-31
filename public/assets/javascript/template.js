@@ -1,124 +1,118 @@
 // ~~~~~~~~~~~~~~~~~~~1st attempt ~~~~~~~~~~~~~~~~~~~`
-// // Javascript
-// const skillsArray1 = [
-//   "JavaScript", "JQuery", "NodeJs"
-// ];
-// // Frontend
-// const skillsArray2 = [
-//   "HTML", "CSS", "Bootstrap", "ReactJs", "Materialize", "Material UI"
-// ];
-// // Backend
-// const skillsArray3 = [
-//   "Firebase", "Express", "MySQL", "MongoDB", "HandleBars", "PassportJs"
-// ];
-// // Other Skills
-// const skillsArray4 = [
-//   "Photoshop", "Illustrator", "SVG", "Heroku", "Github"
-// ];
-// //Soft Skills
+// Javascript
+const skillsArray1 = [
+  "JavaScript", "JQuery", "NodeJs"
+];
+// Frontend
+const skillsArray2 = [
+  "HTML", "CSS", "Bootstrap", "ReactJs", "Materialize", "Material UI"
+];
+// Backend
+const skillsArray3 = [
+  "Firebase", "Express", "MySQL", "MongoDB", "HandleBars", "PassportJs"
+];
+// Other Skills
+const skillsArray4 = [
+  "Photoshop", "Illustrator", "SVG", "Heroku", "Github"
+];
+//Soft Skills
 // const skillsArray5 = [
 //   "Creativity", "Driven"
 // ];
 
-// function skillsTemplate(skills) {
-//   return ` <div class="skill-category-wrapper">          
-//   <h3 class="sub-header">JavaScript</h3>
-//   ${skillsArray1.map(function (skill) {
-//     return `    <div class="skill-div"><p>${skill}</p></div>`
-//   }).join('')} 
-// </div> 
+function skillsTemplate(skills) {
+  return ` <div class="skill-category-wrapper">          
+  <h3 class="sub-header">JavaScript</h3>
+  ${skillsArray1.map(function (skill) {
+    return `    <div class="skill-div"><p>${skill}</p></div>`
+  }).join('')} 
+</div> 
 
-// <div class="skill-category-wrapper">  
-//   <h3 class="sub-header">Front-End</h3>
-//   ${skillsArray2.map(function (skill) {
-//     return `    <div class="skill-div"><p>${skill}</p></div>`
-//   }).join('')} 
-//   </div> 
+<div class="skill-category-wrapper">  
+  <h3 class="sub-header">Front-End</h3>
+  ${skillsArray2.map(function (skill) {
+    return `    <div class="skill-div"><p>${skill}</p></div>`
+  }).join('')} 
+  </div> 
 
-//   <div class="skill-category-wrapper">  
-//   <h3 class="sub-header">Backend-End</h3>
-//   ${skillsArray3.map(function (skill) {
-//     return `    <div class="skill-div"><p>${skill}</p></div>`
-//   }).join('')} 
-//   </div> 
+  <div class="skill-category-wrapper">  
+  <h3 class="sub-header">Backend-End</h3>
+  ${skillsArray3.map(function (skill) {
+    return `    <div class="skill-div"><p>${skill}</p></div>`
+  }).join('')} 
+  </div> 
 
-//   <div class="skill-category-wrapper"> 
-//   <h3 class="sub-header">Other Skills</h3>
-//   ${skillsArray4.map(function (skill) {
-//     return `    <div class="skill-div"><p>${skill}</p></div>`
-//   }).join('')} 
-//   </div> 
+  <div class="skill-category-wrapper"> 
+  <h3 class="sub-header">Other Skills</h3>
+  ${skillsArray4.map(function (skill) {
+    return `    <div class="skill-div"><p>${skill}</p></div>`
+  }).join('')} 
+  </div> 
 
-//   <div class="skill-category-wrapper"> 
-//   <h3 class="sub-header">Soft Skills</h3>
-//   ${skillsArray5.map(function (skill) {
-//     return `    <div class="skill-div"><p>${skill}</p></div>`
-//   }).join('')} 
-//   </div> 
-//   `
-// }
-// document.getElementById("app").innerHTML = `
-// <div class="skill-template">${skillsTemplate(skillsArray1, skillsArray2, skillsArray3, skillsArray4)}</div>`;
+  `
+}
+document.getElementById("app").innerHTML = `
+<div class="skill-template">${skillsTemplate(skillsArray1, skillsArray2, skillsArray3, skillsArray4)}</div>`;
 
 // ~~~~~~~~~~~~~~~~~~~2nd attempt ~~~~~~~~~~~~~~~~~~~`
-let skillsThing = [
-  // Javascript
-  array1 = [
-    "JavaScript", "JQuery", "NodeJs"
-  ],
-  // Frontend
-  array2 = [
-    "HTML", "CSS", "Bootstrap", "ReactJs", "Materialize", "Material UI"
-  ],
-  // Backend
-  array3 = [
-    "Firebase", "Express", "MySQL", "MongoDB", "HandleBars", "PassportJs"
-  ],
-  // Other Skills
-  array4 = [
-    "Photoshop", "Illustrator", "SVG", "Heroku", "Github"
-  ],
-  array5 = [
-    "Creativity", "Driven"
-  ],
-];
+// let skillsThing = [
+//   // Javascript
+//   array1 = [
+//     "JavaScript", "JQuery", "NodeJs"
+//   ],
+//   // Frontend
+//   array2 = [
+//     "HTML", "CSS", "Bootstrap", "ReactJs", "Materialize", "Material UI"
+//   ],
+//   // Backend
+//   array3 = [
+//     "Firebase", "Express", "MySQL", "MongoDB", "HandleBars", "PassportJs"
+//   ],
+//   // Other Skills
+//   array4 = [
+//     "Photoshop", "Illustrator", "SVG", "Heroku", "Github"
+//   ],
+//   array5 = [
+//     "Creativity", "Driven"
+//   ],
+// ];
 
-function skillsTemplate(skills) {
+// function skillsTemplate(skills) {
 
-  // let rows = skillsThing.length;
-  // for (let i = 0; i < rows; i++) {
+//   // let rows = skillsThing.length;
+//   // for (let i = 0; i < rows; i++) {
 
-  //   let items = skillsThing[i].length;
-  //   console.log(i, items)
-  //   for (let n = 0; n < items; n++) {
-  //     console.log(skillsThing[i][n]);
-  //     `<p>${this.skillsThing[i][n]}</p>`
-  //   }
-  // }
+//   //   let items = skillsThing[i].length;
+//   //   console.log(i, items)
+//   //   for (let n = 0; n < items; n++) {
+//   //     console.log(skillsThing[i][n]);
+//   //     `<p>${this.skillsThing[i][n]}</p>`
+//   //   }
+//   // }
 
-  let rows = skillsThing.length;
-  for (i = 0; i < skillsThing.length; i++) {
+//   let rows = skillsThing.length;
+//   for (i = 0; i < skillsThing.length; i++) {
 
 
-    let items = skillsThing[i].length;
-    for (n = 0; n < skillsThing.length; n++) {
-      return ` <div class="skill-category-wrapper" style="border: solid 2px red">          
-    ${skillsThing.map(function (skill) {
+//     let items = skillsThing[i].length;
+//     for (n = 0; n < skillsThing.length; n++) {
+//       return ` <div class="skill-category-wrapper" style="border: solid 2px red">          
+//     ${skillsThing.map(function (skill) {
 
-        return `      <h3 class="sub-header">
-      ${skill[0]}
-      </h3> 
-      <div class="skill-div" style="border: solid 2px blue"><p>
-      ${skill}
+//         return `      <h3 class="sub-header">
+//       ${skill[0]}
+//       </h3> 
+//       <div class="skill-div" style="border: solid 2px blue"><p>
+//       ${skill}
 
-      </p></div>
-            `
-      }).join('')}    
-  </div> `  }
-  };
-};
-document.getElementById("app").innerHTML = `
-<div class="skill-template">${skillsTemplate(skillsThing)}</div>`;
+//       </p></div>
+//             `
+//       }).join('')}    
+//   </div> `  }
+//   };
+// };
+// document.getElementById("app").innerHTML = `
+// <div class="skill-template">${skillsTemplate(skillsThing)}</div>`;
 
 // ~~~~~~~~~~~~~~~~~~~3rd attempt ~~~~~~~~~~~~~~~~~~~`
 // let skillInception = {
