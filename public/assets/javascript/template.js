@@ -13,7 +13,7 @@ const skillsArray3 = [
 ];
 // Other Skills
 const skillsArray4 = [
-  "Photoshop", "Illustrator", "SVG", "Heroku", "Github"
+  "Illustrator", "SVG", "Heroku", "Github", "Responsive-Design"
 ];
 //Soft Skills
 // const skillsArray5 = [

@@ -383,7 +383,7 @@ opacity: .1;
 display: grid;
 padding: 1em;
 text-align: center;
-width: 70%;
+width: 80%;
 /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
 grid-template-columns: repeat(auto-fit, minmax(15%,  1fr )); 
 grid-gap: 1em;
