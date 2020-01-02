@@ -284,7 +284,7 @@ letter-spacing: normal;
   /* max-height: calc(100vh - 48px);  */
   position: relative;
   float: right;
-  padding: 4em;
+  padding: 4em 0 4em;
 
 }
 
@@ -605,6 +605,29 @@ nav{
     height: auto;   
   }
 }
+
+/* mobile responsive */
+@media screen and (max-width: 450px){
+  .skill-template{
+    grid-template-columns: 1fr ;
+    width: 85%;
+    padding: none;
+    }
+    .skill-div{
+        margin: 0 4em 0 ;
+    }
+
+    #about-left {
+      padding: 1.5em 1.5em 0;
+    }
+
+    #about-right {
+      padding: 1.5em ;
+    }
+    .headshot {
+      width: 100%;
+}
+
 @keyframes navLinkFade{
   from{
 opacity: 0;
