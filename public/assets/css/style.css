@@ -547,7 +547,7 @@ nav{
   .nav-links{
     /* border: 3px solid pink; */
     margin-right: 0px;
-    padding: 1.5em 0 1.5em 0;
+    padding: 2.5em 0 5.5em 0;
     position: fixed;
     right: 0px;
     z-index: 2;
@@ -626,6 +626,10 @@ font-size: 22px;
     left: calc(50% - 108px);
     left: auto;
     }
+    .nav-links{
+      padding: 5em 0 8em 0;
+    }
+
   /* INDEX page */
   #about-left {
   padding: 1.5em 1.5em 0;
