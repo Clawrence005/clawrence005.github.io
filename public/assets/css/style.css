@@ -594,11 +594,16 @@ font-size: 22px;
   width: 100vw;
 }
 #about-right {
+  padding: 4em;
   width: 100vw;
+}
+#about-me-parent p{
+  border: 3px solid greenyellow;
+  margin: 0 1em 0;
 }
 
 .headshot {
-  width: calc(100%- 4em);
+  width: 100%;
   }
 /* PORTFOLIO */
 .content-subsection:not(:first-child) {
