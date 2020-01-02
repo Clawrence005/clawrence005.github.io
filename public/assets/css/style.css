@@ -598,7 +598,7 @@ font-size: 22px;
   width: 100vw;
 }
 #about-me-parent p{
-  border: 3px solid greenyellow;
+  /* border: 3px solid greenyellow; */
   margin: 0 1em 0;
 }
 
