@@ -10,7 +10,6 @@
   --secondary-text-color: #444;
     --navbar-text-color:#efefef;
     --footer-text-color:#efefef;  
-
   --navbar-bg-color:#000;
 
   --resp-navbar-bg-color:#000;
@@ -45,7 +44,7 @@ nav{
   display: block;
   height: 35px;
   position: absolute;
-  left: 12px;
+  left: 10px;
   color: #444;
 }
 
@@ -55,7 +54,7 @@ nav{
   right: 0;
   display: flex;
   justify-content: space-around; 
-  width: 45%;
+  width: 40%;
 }
 .nav-links li{
   /* border: 3px solid green; */
@@ -76,7 +75,7 @@ nav{
   -o-transition: 0.5s ease-in-out;
 }
 .burger{  
-  margin-right: 12px;
+  margin-right: 11px;
   /* border: 3px solid green; */
   display: none;
   
@@ -96,10 +95,11 @@ nav{
 .name{
   display:block;
   position: absolute;
-  left: 60px;
+  left: 50px;
+  top: 11px;
   color: var(--navbar-text-color);
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   font-size: 20px;
 }
 nav a , nav button{
@@ -564,7 +564,7 @@ nav{
   .burger{
     display: block;
     position: absolute;
-    right: 1em;
+    right: 9px;
   }
 
 .nav-active{
@@ -578,7 +578,7 @@ nav{
 
 /* MAIN CONTENT */
 .content{
-  padding: 2rem;
+  padding: 2em;
 }
 /* @ INDEX */
 #about-left {
@@ -608,24 +608,46 @@ nav{
 
 /* mobile responsive */
 @media screen and (max-width: 450px){
+  body{
+  overflow-x: hidden;
+  }  
+  .name{
+    left: calc(50% - 108px);
+    left: auto;
+    }
+  /* INDEX page */
+  #about-left {
+  padding: 1.5em 1.5em 0;
+  }
+
+  #about-right {
+  padding: 1.5em ;
+  }
+  .headshot {
+  width: 100%;
+  }
+  /* PORTFOLIO page */
+ 
   .skill-template{
-    grid-template-columns: 1fr ;
-    width: 85%;
-    padding: none;
-    }
-    .skill-div{
-        margin: 0 4em 0 ;
-    }
+  grid-template-columns: 1fr ;
+  width: 90%;
+  padding: none;
+  }
+  .skill-div{
+  margin: 0 4em 0 ;
+  }  
+  #portfolio-image-container {
+  grid-gap: 1.25em;
+  }
+  .git{
+  left: calc(50% - 30px);
+  }
 
-    #about-left {
-      padding: 1.5em 1.5em 0;
-    }
-
-    #about-right {
-      padding: 1.5em ;
-    }
-    .headshot {
-      width: 100%;
+.project-pic{
+  width: calc(100vw - 4em);
+  height: 15rem;
+  overflow-x: none;
+}
 }
 
 @keyframes navLinkFade{
