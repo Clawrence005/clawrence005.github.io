@@ -521,6 +521,9 @@ li{
   height: auto;  
 }
 #about-left, #about-right {
+  order: 2;
+}
+#about-left, #about-right {
     width:50%;
 }
 /* PORTFOLIO */
@@ -544,6 +547,7 @@ nav{
   .nav-links{
     /* border: 3px solid pink; */
     margin-right: 0px;
+    padding-bottom: 1.5em;;
     position: fixed;
     right: 0px;
     z-index: 2;
@@ -591,8 +595,11 @@ font-size: 22px;
 }
 #about-right {
   width: 100vw;
-
 }
+
+.headshot {
+  width: calc(100%- 4em);
+  }
 /* PORTFOLIO */
 .content-subsection:not(:first-child) {
   margin-top:1.5em;
