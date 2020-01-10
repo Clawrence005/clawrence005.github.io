@@ -208,9 +208,12 @@ color: var(--footer-text-color);
 /* Content */
 .index-content{
   background-image: url("../images/austin.jpg");
-  object-fit: cover;
+  background-image: url("../images/rainbow.jpeg");
+  /* object-fit: cover; */
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: 100vw 100%;
+  /* background-size: 100% auto; */
   /* height: calc(100vh - 48px);    */
 }
 
@@ -668,6 +671,13 @@ font-size: 22px;
   height: 15rem;
   overflow-x: none;
 }
+
+/* .project-name {
+ 
+  height: 5rem;
+  z-index: 2;
+  background-color: pink;
+} */
 }
 
 @keyframes navLinkFade{
