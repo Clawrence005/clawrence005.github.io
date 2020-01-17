@@ -13,7 +13,7 @@ const skillsArray3 = [
 ];
 // Other Skills
 const skillsArray4 = [
-  "Illustrator", "SVG", "Heroku", "Github", "Responsive-Design"
+  "Illustrator", "SVG", "Heroku", "Git", "Responsive-Design"
 ];
 //Soft Skills
 // const skillsArray5 = [
@@ -127,8 +127,6 @@ document.getElementById("app").innerHTML = `
 // document.getElementById("app").innerHTML = `    
 // <div class="skill-template">${skillsTemplate(skillInception)}</div>`;
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 
 // https://stackoverflow.com/questions/31593297/using-execcommand-javascript-to-copy-hidden-text-to-clipboard  #65
 function copyContact(value) {
